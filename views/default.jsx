@@ -5,7 +5,9 @@ function Default(html) {
         <html>
             <head>
                 <title>Title</title>
-            </head>
+
+               <link rel="stylesheet" href="/css/style.css"/>
+               </head>
             <body>
                 {html.children}
             </body>
